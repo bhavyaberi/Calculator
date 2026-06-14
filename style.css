@@ -80,7 +80,7 @@ button:hover {
     margin-top: 10px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     button {
         height: 55px;
         width: 55px;
@@ -104,4 +104,4 @@ button:hover {
         height: 55px;
         font-size: 22px;
     }
-}
+} */
