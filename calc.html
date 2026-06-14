@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+
+        <br>
+
+        <div class="top-row">
+            <button onclick="clearDisplay()" class="gray">C</button>
+            <button onclick="backspace()" class="gray">⌫</button>
+        </div>
+
+
+        <div class="button">
+            <button onclick="addValue('1')">1</button>
+            <button onclick="addValue('2')">2</button>
+            <button onclick="addValue('3')">3</button>
+            <button onclick="addValue('+')" class="op">+</button>
+
+            <button onclick="addValue('4')">4</button>
+            <button onclick="addValue('5')">5</button>
+            <button onclick="addValue('6')">6</button>
+            <button onclick="addValue('-')" class="op">-</button>
+
+            <button onclick="addValue('7')">7</button>
+            <button onclick="addValue('8')">8</button>
+            <button onclick="addValue('9')">9</button>
+            <button onclick="addValue('*')" class="op">*</button>
+
+            <button onclick="addValue('0')">0</button>
+            <button onclick="addValue('.')">.</button>
+
+            <button onclick="percentage()" class="op">%</button>
+            <button onclick="addValue('/')" class="op">/</button>
+
+        </div>
+
+        <button id="equal">=</button>
+
+    </div>
+
+    <script src="event.js"></script>
+
+</body>
+
+</html>
